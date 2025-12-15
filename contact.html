@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên Hệ - Con Rua Shop</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="shop.html">Con Rua <span>Shop</span></a>
+            </div>
+            <div class="nav-links">
+                <a href="shop.html">Cửa Hàng</a>
+                <a href="featured.html">Nổi Bật</a>
+                <a href="categories.html">Thể Loại</a>
+                <a href="contact.html" class="active">Liên Hệ</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact visible">
+        <h2>Liên Hệ</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3>Thông tin liên hệ</h3>
+                <p><i class="fas fa-envelope"></i> Email: <a href="mailto:pinkgamestore@gmail.com">pinkgamestore@gmail.com</a></p>
+                <p><i class="fas fa-phone"></i> Hotline: 0900 123 456</p>
+                <p><i class="fas fa-map-marker-alt"></i> Địa chỉ: 123 Đường ABC, Quận 1, TP.HCM</p>
+                <div class="business-hours">
+                    <h4>Giờ làm việc:</h4>
+                    <p>Thứ 2 - Thứ 6: 8:00 - 22:00</p>
+                    <p>Thứ 7 - Chủ nhật: 9:00 - 20:00</p>
+                </div>
+            </div>
+            <div class="contact-form">
+                <h3>Gửi tin nhắn cho chúng tôi</h3>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Họ và tên" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Gmail của người nhận" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" placeholder="Thông tin liên hệ" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" placeholder="Điều cần liên hệ tới" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Gửi Tin Nhắn</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Về Chúng Tôi</h3>
+                <p>Con Rua Shop - Điểm đến hàng đầu cho game thủ.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Liên Kết Nhanh</h3>
+                <ul>
+                    <li><a href="shop.html">Trang Chủ</a></li>
+                    <li><a href="featured.html">Game Nổi Bật</a></li>
+                    <li><a href="categories.html">Thể Loại</a></li>
+                    <li><a href="contact.html">Liên Hệ</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Kết Nối Với Chúng Tôi</h3>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook" title="Facebook"></i><span class="sr-only">Facebook</span></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter" title="Twitter"></i><span class="sr-only">Twitter</span></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram" title="Instagram"></i><span class="sr-only">Instagram</span></a>
+                    <a href="#" aria-label="Discord"><i class="fab fa-discord" title="Discord"></i><span class="sr-only">Discord</span></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Con Rua Shop. Tất cả các quyền được bảo lưu.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script src="contact.js"></script>
+</body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cửa Hàng Game Con Rua</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="shop.html">Con Rua <span>Shop</span></a>
+            </div>
+            <div class="nav-links">
+                <a href="shop.html" class="active">Cửa Hàng</a>
+                <a href="featured.html">Nổi Bật</a>
+                <a href="categories.html">Thể Loại</a>
+                <a href="contact.html">Liên Hệ</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="store" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Chào mừng đến với Pink Game Store</h1>
+                <p>Khám phá và chơi những tựa game tuyệt vời</p>
+                <a href="featured.html" class="btn-primary" id="view-games-btn">Xem Game</a>
+            </div>
+            <div class="hero-image">
+                <img src="z7302792433534_c0e7665c6b07e68cdbd658c0711385b1.jpg" alt="Gaming Setup" class="hero-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Login Modal -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Đăng Nhập</h2>
+            <form class="login-form">
+                <div class="form-group">
+                    <label for="login-email">Email</label>
+                    <input type="email" id="login-email" required>
+                </div>
+                <div class="form-group">
+                    <label for="login-password">Mật khẩu</label>
+                    <input type="password" id="login-password" required>
+                </div>
+                <button type="submit" class="btn-primary">Đăng Nhập</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Signup Modal -->
+    <div id="signupModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Tạo Tài Khoản</h2>
+            <form class="signup-form">
+                <div class="form-group">
+                    <label for="signup-username">Tên đăng nhập</label>
+                    <input type="text" id="signup-username" required>
+                </div>
+                <div class="form-group">
+                    <label for="signup-email">Email</label>
+                    <input type="email" id="signup-email" required>
+                </div>
+                <div class="form-group">
+                    <label for="signup-password">Mật khẩu</label>
+                    <input type="password" id="signup-password" required>
+                </div>
+                <button type="submit" class="btn-primary">Đăng Ký</button>
+            </form>
+        </div>
+    </div>
+
+    
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Về Chúng Tôi</h3>
+                <p>Con Rua Shop - Điểm đến hàng đầu cho game thủ.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Liên Kết Nhanh</h3>
+                <ul>
+                    <li><a href="shop.html">Trang Chủ</a></li>
+                    <li><a href="featured.html">Game Nổi Bật</a></li>
+                    <li><a href="categories.html">Thể Loại</a></li>
+                    <li><a href="contact.html">Liên Hệ</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Kết Nối Với Chúng Tôi</h3>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook" title="Facebook"></i><span class="sr-only">Facebook</span></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter" title="Twitter"></i><span class="sr-only">Twitter</span></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram" title="Instagram"></i><span class="sr-only">Instagram</span></a>
+                    <a href="#" aria-label="Discord"><i class="fab fa-discord" title="Discord"></i><span class="sr-only">Discord</span></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Con Rua Shop. Tất cả các quyền được bảo lưu.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script src="auth.js"></script>
+    <script src="contact.js"></script>
+</body>
+</html>

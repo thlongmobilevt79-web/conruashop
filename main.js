@@ -396,13 +396,13 @@ function displayGames(gamesToShow = games) {
         gameGrid.appendChild(gameCard);
     });
     
-    // Add event listeners to all add to cart buttons
+    
     document.querySelectorAll('.add-to-cart').forEach(button => {
         button.addEventListener('click', (e) => {
             const gameId = parseInt(e.target.closest('.add-to-cart').getAttribute('data-id'));
             addToCart(gameId);
             
-            // Add animation
+            
             const button = e.target.closest('.add-to-cart');
             button.classList.add('added');
             setTimeout(() => button.classList.remove('added'), 1000);
